@@ -1,3 +1,7 @@
+---
+geometry: margin=0.75in
+---
+
 # Cours 5 - Principes, directives et patrons de conception
 
 ## Les principes de conception
@@ -194,7 +198,7 @@ La loi de Fitts modélise les mouvements réciproques ("aller retour") et discre
 
 ### Passer à travers un but
 
-## Loi de Hick hyman (temps de réaction)
+## Loi de Hick-Hyman (temps de réaction)
 
 La loi de Hick-Hyman décrit le temps de réaction/désicion selon
 le nombre d’alternatives présentées
@@ -210,7 +214,7 @@ $$\boxed{\text{Temps de réaction} = a + b \cdot \log_{2}(N+1)}$$
 - Éléments essentiels pour l'utilisation des GUI
 - Derrière une grande partie des principes de conception des GUI
 
-- **Vision** = processus biologiquepar lequel on capte la lumière et la transforme en impulsions électriquesprocessus biologiquepar lequel on capte la lumière et la transforme en impulsions électriques.
+- **Vision** = processus biologique par lequel on capte la lumière et la transforme en impulsions électriques.
 - **Perception** = manière dont le cerveau interprète ces impulsions.
 
 ### Vision périphérique
@@ -405,4 +409,444 @@ Exemple :
 
 # Cours 11 - Méthodologie d'évaluation
 
+## Méthodologies d'évaluation
 
+### Tests d'utilisabilité
+
+- Motivation: on dispose de connaissances précises sur l'équipement (specs, documentation, etc.). Mais nous n'avons pas ce genre  d'informations pour les utilisateurs.
+
+- Objectifs:
+	- Évaluer expérimentalement l'efficacité et l'efficience
+	- Détecter des problèmes ponctuels nuisant à l'usabilité
+	- Évaluer l'usabilité globale du produit
+
+- Contextes d'utilisation:
+	- Durant le développement, dès qu'on a un prototype fonctionnel
+	- Avant de faire une nouvelle version, complément des enquêtes et des focus groups
+	- Ne pas les utiliser pour trouver des erreurs de logiciel
+
+- Composantes de l'usabilité:
+	- Efficacité (faire les tâches requises)
+	- Efficience (faire les tâches rapidement)
+	- Satisfaction (apprécié par l'utilisateur)
+
+- Types de tests d'usabilité:
+	- Tests d'évaluation: trouver des prolèmes spécifiques nuisant à l'usabilité
+	- Tests de comparaison: comparer deux solutions (concurrent)
+	- Tests d'acceptation: valider le produit selon des niveaux d'usabilité prédéfinis
+
+### Le plan de test
+
+#### Contenu du plan de test
+
+1. But du test
+2. Énoncé des objectifs (ou questions) du tests
+3. Profil de l’utilisateur et justification des sujets
+4. Protocole de test
+5. Matériel et environnement de test
+6. Déroulement du test
+7. Analyse des résultats
+8. Discussion et recommandations
+
+#### But des tests
+
+- Fournit à un haut niveau les raisons pour réaliser un plan de test
+- Est-ce que les tests visent à résoudre des problèmes résultants des commentaires des utilisateurs?
+- Est-ce le résultat d’une nouvelle politique organisationnelle qu’il faut tester?
+- Est-ce à la demande des gestionnaires qui croient essentiels de faire certain types de tests?
+
+#### Exemples
+
+- Le test vise à déterminer si tous les principaux clients peuvent utiliser le produit correctement et s’assurer tenir compte des différences s’il y a lieu
+- Le test vise à vérifier si la documentation peut compenser pour certains problèmes d’interface connus.
+- Suite à plusieurs plaintes concernant le panneau de contrôle d’une application nouvellement utilisée, le test vise à connaître la nature de ce problème et identifier comment on il pourrait être réglé
+
+### Le test
+
+##### Objectifs du test
+
+- Les objectifs doivent être :
+  - Utiles, précis et vérifiables par observation
+  - Adaptés au type de test
+  - Peuvent être formulés sous forme de questions auxquelles on veut répondre
+
+#### Tests d'évaluation
+
+##### Exemples
+
+- Est-ce qu'une zone de message de 20 caractères est suffisante ?
+
+##### Contre-exemples
+
+- Est-ce que l'aide est bien organisée ? (Trop général)
+- Est-ce que le produit est prêt pour être commercialisé ? (Manque de données (sur le marché) pour répondre)
+- Quel est le temps d'exécution moyen de la tâche A ? (Question quantitative (test de performance))
+
+#### Tests de comparaison
+
+##### Exemples
+
+- La procédure d'achat d'item est-elle plus intuitive dans A que dans B ?
+- Est-ce que le bouton UNDO est utilisé plus fréquemment dans A que dans B ?
+- Est-ce que les menus de A permettent un accès plus rapide aux options courantes que ceux de B ?
+
+##### Contre-exemples
+
+- Est-ce que A est plus efficace que B ? (Trop général)
+- Est-ce que A est plus facile à apprendre que B ? (Trop général)
+- Est-ce que A est un meilleur achat que B ? (Manque de données pour répondre)
+
+#### Tests d'acceptation
+
+##### Exemples
+
+- Vérifier si 70% des utilisateurs arrivent à imprimer sans aide en moins de 5 minutes.
+- Vérifier si les utilisateurs novices ont un taux de succès moyen supérieur à 90% dans les tâches assignées.
+- Vérifier si les utilisateurs experts peuvent transcrire une page en 5.5 minutes.
+- Vérifier si les utilisateurs trouvent ce qu'ils cherchent dans l'aide dans plus de 90% des situations.
+
+##### Contre-exemples
+
+- Vérifier si le produit est rapide et fiable. (Trop général)
+- Vérifier si le taux d'erreur est inférieur à 2%. (Concept de taux d'erreur mal défini (% de quoi ?))
+
+### Profil de l’utilisateur et justification des sujets
+
+Il faut décrire le profil de l'utilisateur (âge, sexe, études, etc.).
+
+#### Composition du groupe de sujets
+- Beaucoup de flexibilité pour composer le groupe de sujets
+- Groupe de sujets représentatifs des utilisateurs type
+- Chercher la diversité plutôt que l'homogénéité.
+- Enregistrer les paramètres socio-démographiques.
+- Age, sexe, langue, années d'étude, de pratique avec l'ordinateur ou le logiciel testé.
+- Critères d'exclusion (depressif, médication, etc.)
+
+#### Nombre de sujets
+- Pré-test
+- 2 ou 3 sujets, généralement les développeurs ou des proches
+- Pour mettre au point le protocole expérimental
+- Test
+- Tests d’évaluation: 4 à 8 sujets (recette empirique)
+  - Selon J. Nielsen (1993) 5 à 7 sujets suffisent pour détecter 80% des erreurs (chiffre à prendre avec prudence)
+- Tests de comparaison: 4 à 8 sujets (recette empirique)
+- Tests d’acceptation: le plus possible (ex. 30 sujets)
+
+
+#### Considérations éthiques et légales
+
+- Les sujets (participants) doivent être libres et consentants.
+- Complètement informés.
+- Pouvoir se retirer à tout moment.
+- Aucune donnée nominale ne doit être informatisée.
+- Tout est résumé dans un formulaire de consentement.
+
+#### Recrutement des sujets
+
+- Personnel de l'entreprise
+   - Ne pas les faire participer trop souvent (syndrômedu "testeur corporatif" )
+- Connaissances, conjoints, parents
+   - Ne pas les faire participer trop souvent (syndrômedu "testeur professionnel" )
+- Babillards ou journaux
+   - Étudiants (campus, collèges...), personnes âgées (Bingo, clubs...).
+   - Tout venant (supermarchés).
+   - Compensation financière de 10 à 50$ environ selon le temps mis.
+   - Alternative: paiement des frais de déplacement ou repas.
+
+
+### Protocole de test
+
+#### Établir la liste de tâches qui seront faites par les sujets
+
+- La liste de tâches est établie en fonction des objectifs ou questions des tests
+- La tâche doit être très spécifique et doit inclure toute l’information nécessaire à la complétion ce cette tâche
+- La tâche ne doit pasdécrire les étapes nécessaires pour effectuer la tâche
+
+#### Faire une matrice sujet x tâche.
+
+- Les sujets peuvent tous faire les mêmes tâches ou un sous-groupe de tâches selon leur profil
+
+
+- Ordre des tâches.
+    - Contrôler cet ordre pour éviter (partiellement) la facilitation.
+    - Ex. : Tâche 1 facilite la réalisation de Tâche 2.
+- Randomiser?
+    - Ordre pseudo-aléatoire.
+    - Ordres différents entre les sujets?
+- Cas des tests de comparaison.
+    - Même tâches faites avec 2 produits?
+    - 50% des sujets commencent par A, et 50% par B?
+    - certains sujets travaillent exclusivement sur A, d'autres sur B?
+
+
+#### Protocole de test
+
+- Groupes indépendants ( _Between subjects design_ )
+- Intra-participant ( _Within-subjects design_ )
+
+
+### Matériel et environnement de test
+
+##### Documents nécessaires pour les tests:
+
+- Liste de contrôle à l'attention de l'expérimentateur
+- Procédure de test à l'attention de l'expérimentateur
+    - Inclut les procédures d'exception (ex. quoi faire si le sujet se sent mal)
+- Formulaire de consentement
+- Fiche de renseignements à remplir par le sujet.
+    - Renseignements personnels + données socio-démographiques.
+- Consigne à lire au sujet (aussi appelée script d'orientation).
+- Liste de tâches destinée au sujet
+- Feuilles d'observations
+    - Pour noter ce qui se passe durant le test.
+
+
+#### Logiciel et équipement:
+- Prototype fonctionnel (ou application finale).
+   - Interface suffisamment complète pour faire les tâches.
+   - Nombre minimal de bogues.
+- Ordinateur correspondant au type d'équipement où l'application sera déployée.
+	  - Pour les applications web, connexion présentant les caractéristiques voulues.
+
+
+#### Matériel et environnement de test
+
+##### Local et poste de travail
+
+- Configuration simple.
+- Expérimentateur
+- Observateurs
+- Caméra
+- PC + Manuels
+- Sujet
+
+##### Local et poste de travail:
+
+- Si possible, salle avec des conditions contrôlées (insonorisée, contrôle lumière)
+- Poste de travail du sujet.
+- Poste de l’expérimentateur (en arrière du sujet, interfére pas, rassure le sujet)
+- Configuration complète.
+
+#### Salle d’observation annexe
+
+- Permet aux observateurs de converser sans interférer
+- Vitre semi-transparente
+   - Permet de voir directement ce qui se passe
+   - Les moniteurs vidéo ne donnent pas toujours une bonne idée
+- Système de son
+   - Écouter les commentaires du sujet et de l’expérimentateur
+- Moniteur d’ordinateur dédoublé + moniteurs de vidéo
+   - Voir en même temps les actions du sujet + l’interface
+
+#### Dispositifs d’enregistrement
+
+- Caméras vidéo + son
+   - Aide à compléter et corriger les observations
+   - Permet de voir les actions du sujet depuis la pièce voisine
+   - Garde une trace de l’expérience pour archivage
+- Programme espion
+   - Aide à compléter et corriger les observations
+   - Logs filtrés (calculer temps d'exécution et/ou détecter erreurs)
+
+# **À TERMINER (p.43 du cours 11)**
+
+# Cours 12 - Dispositifs d'interaction
+
+## Dispositifs de saisie
+
+- Dvorak
+	- Toutes les voyelles sont sous une main dans la rangée du milieu
+
+- Barre tactile du Macbook
+	- Avantages:
+		- Fonctionnalités spécifiques aux applications
+		- Rester au clavier pour des trucs fait à la souris habituellement
+		- Façon additionnelle de faire certaines tâches
+	- Désavantages:
+		- F1, F2, F3 requièrent 2 touches
+		- Pas de retour tactile
+		- Pas de constance des touches
+		- Fonctionnalités redondantes car pas tous les ordis qu'ils l'ont
+		- Distraction
+		- Cliquer par accident
+		- Taille des touches (Fitts)
+
+- Clavier virtuel du iPhone
+	- Caractère affiché décalé pour éviter l'occlusion
+	- Caractère saisi au relâchement pour corriger si nécessaire
+
+#### Comparaison de vitesses en mots/minute (wpm)
+
+- Écriture: 20-30 wpm (>300 wpm avec sténographie)
+- Dactylographie professionnel sur clavier normal: 50-100 wpm
+- Mots parlés: ~100 wpm
+- Sténotype professionnel: 100-200 wpm
+- Mots lus: 200-300 wpm
+
+## Dispositifs de pointage
+
+Première souris en 1968 par Douglas Engelbart (Standfort Research Institute).
+
+#### Propriétés avantageuses de la souris
+
+- Le poids stabilise et atténue les temblements
+- Direction de mouvements des boutons est perpendiculaire au plan de mouvement de la souris. Peut appuyer sur un bouton sans affecter la position de la souris.
+- Lâcher et ressaisire la souris sans changer sa position
+
+#### Alternatives
+
+- Tablette numérisante (digitizing tablet, tablette graphique)
+- Souris stylet (mouse pen)
+- Pavé tactile (touchpad)
+- Boule de commande (track ball)
+- Manette, manche à balai (joystick)
+- Écran tactile (touchscreen)
+- Oculomètre (eye tracking)
+
+### Propriétés des dispositifs de pointage
+
+*Savoir catégoriser*
+
+- Capture absolue vs relative
+	- Exemple: la souris capte des mouvements relatifs alors que les tablettes numérisantes captent une position absolu (peuvent être utilisés en mode absolu)
+
+- Pointage direct vs indirect
+	- Pointage direct: les espaces d'entrée et de sortie coincident
+	- Exemples:
+		- Une souris ou une tabltte numérisante sans écran permettent un pointage indirect.
+		- Un écran tactile ou tablette numérisante avec écran permettent un pointage direct
+	- Pointage direct est plus intuitif
+
+- Capture discrète vs continue
+	- Exemples:
+		- Une souris capte une position continue, mais pourrait l'arrondir vers une de $N$ positions discrètes si on voulait.
+		- Les flêches, ou interrupteur à $N$ positions permettent de capter des données discrètes
+
+- Contrôle de position vs contrôle de vitesse
+	- Contrôle de vitesse: la _position_ du périphérique détermine la _vitesse_ à laquelle une autre variable (ex: position du curseur) change.
+	- Exemples:
+		- Souris capte une position et permet un contrôle de position ou bien un contrôle de vitesse.
+		- Manette isométrique ne permet qu'un contrôle de vitesse.
+
+#### Performance de ces périphériques
+
+- Souris
+- Écran tactile
+- Souris stylet
+- Boule de commande
+- Pavé tactile
+- Manette
+
+## Modèle à trois états de Buxton (1990)
+
+## Dispositifs avancés
+
+- Capture de mouvement (interfaces gestuelles) (Kinect, Leap Motion, Hololens, Oculus Quest 2, Omni)
+- Activation musculaire (Myo)
+- Interfaces cerveau-machine (EEG, implants)
+
+# Révision pour l'examen final
+
+- 6 concepts clés de Norman (modèle conceptuel)
+	- Affordances
+	- Contraintes
+	- Visibilité
+	- Mapping
+	- Retour (feedback)
+	- Constance
+- Ces concepts s'appliquent autant aux objets physiques qu'aux interfaces virtuelles
+
+_Pouvoir donner des exemples des concepts_
+
+>
+
+- Analyse de tâche
+	- Liste des tâches à faire sur l'interface
+	- Description du domaine et contexte d'utilisation
+	- Profil des utilisateurs-type
+	- Glossaire du domaine
+	- Description des tâches réalisées actuellement
+	- Matrice intervenants-tâches
+
+_Faire une analyse et la matrice intervenants-tâches (pas juste qui fait quoi)_
+
+>
+
+- Principes de conception
+	- Plus généraux, plus fondamentaux, plus vagues: s'appliquent dans plus de cas mais peuvent être moins évident à appliquer.
+	- Exemples: 8 règles de Shneiderman, réduire la dépendance à la mémoire, etc...
+
+>
+
+- Les directives de conception
+	- Plus précises/détaillées, s'appliquent dans moins de cas mais disent plus précisément quoi faire.
+	- Exemples: changer la couleur d'un hyperlien quand il est visité.
+
+>
+
+- Esquissage et prototypage
+
+_Savoir les différences entre les différents types, qu'est-ce qui les distingues._
+
+>
+
+- Éléments de KML
+- Exercice KLM
+	- Trouver les erreurs
+
+_Capable de faire des scripts KLM, revoir la question sur la saisie de texte._
+
+>
+
+- Loi de Fitts: $T=a+b \cdot \log_2{(D/W + 1)}$
+
+_Pour a et b on a besoin des temps de pointages ou les difficultés._
+
+_Comme dans le quiz. Reconnaître quel disposition est plus performante. Comment obtenir a et b._
+
+_Placer en ordre croissant de difficulté._
+
+>
+
+- Loi de Hick-Hyman: $\text{Temps de réaction} = a+b \cdot log_2{(N+1)}$
+
+_Capable de l'appliquer, comparer deux profondeurs de menu._
+
+_Qu'est-ce qu'on a besoin pour qu'elle s'applique: l'utilisateur sait ce qu'il cherche, ordre logique._
+
+>
+
+_Créer une structure visuel avec le principe de proximité, similitude, etc..._
+
+>
+
+- Vision et perception
+
+_Note: Voir les questions du quiz dans le dernier PDF. C'est vrai que noir sur blanc et blanc sur noir c'est aussi difficile. Faux pour les des yeux._
+
+>
+
+- Modèle accrocheur
+
+- Questions du quiz
+	- Recommandations du système: Récompense
+	- La recherche de validation en est un exemple: Trigger interne
+	- Peut être une émotion: Trigger interne
+	- L'association avec un endroit physique en est un exemple: Trigger interne
+	- Doit être variable: Récompense
+	- Peut charger (load) le prochain élément déclencheur: Investissement
+
+## Informations sur l'examen final
+
+- Droit aux notes mais l'examen est fait en conséquence
+- Choix de réponses
+- Pas de définitions
+- Voir si on a compris avec identification des exemples
+- Les exercices peuvent dire qu'est-ce qui est important
+- Hybride
+	- Moodle (comme les quiz, associations, etc.)
+	- Papier (plus développement, mettre en application dans la matière)
+		- concevoir une interface selon un use-case
+		- analyser une interface
+		- réorganiser une interface
+		- proposer un protocole de tests
