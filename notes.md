@@ -648,7 +648,152 @@ Il faut décrire le profil de l'utilisateur (âge, sexe, études, etc.).
    - Aide à compléter et corriger les observations
    - Logs filtrés (calculer temps d'exécution et/ou détecter erreurs)
 
-# **À TERMINER (p.43 du cours 11)**
+#### Déroulement du test
+1. Lire la consigne et donne la liste de tâches
+2. Indiquer un temps global et un temps pour chaque tâche
+3. Demander de penser à voix haute
+4. Séance de débriefing
+
+**Expérimentateur**:
+- Préparer le local
+- Accueillir, faire remplir le formulaire
+- Expliquer les tâches
+- Noter les grandes lignes de ce que fait l'utilisateur
+- Noter les erreurs
+- Encourager ou intervenir si nécessaire
+- Après transcire ses notes, sauver les données et archiver les documents
+
+Il y a des phrases à ne pas dire à l'utilisateur (common sense)
+
+### Résultats
+- On fait une interprétation et on ne tire pas de conclusion
+- Transcrire intégralement les feuilles d'observation
+- Analyse qualitative par idées ou événements-clés
+- Idées ou événements-clés
+- Analyse quantitatives grossières
+- Statistiques simples
+- Graphiques (tartes, diagrammes de barres)
+- Tableaux descriptifs
+
+### Discussion et recommandations
+- Discuter de la signification des résultats
+- Faire des recommandations
+
+### Tests d'usabilité
+- Limitations générales:
+    - Protocole et analyse arbitraire (voit ce qu'on veut voir)
+    - Protocole peu rigoureux (résultat moins fiables)
+    - Sujets peuvent fausser les résultats
+    - Investissement (vidéo, salle, etc...)
+    - Besoin d'expertise (conception, conduite des tests et l'analyse)
+
+## Tests d'utilisabilité de type «guérilla»
+- Forme allégée et moins formelle des tests d'usabilité
+- Aller dans un café trouver des utilisateurs
+- Fait sur le terrain et non dans un environnement contrôlé
+- Permet de recueillir les mêmes infos qu'un tests formel, avec moins de ressources
+
+### Conseils
+- Beware the implicit bias
+- Explain what's going on
+- Be ethical
+- Make it casual
+- Be participatory
+- Don't lead participants
+- Keep your eyes peeled
+    - Take notes for later
+- Capture the feedback
+- Be a timecop
+    - Don't waste too much of the subject's time
+
+- Pour tests sur ordi portable:
+    - Enregistrer l'écran, caméra et micro
+    - Logiciel qui permet de voir les cliques de souris
+
+### Avantages
+- Moins de planification
+- Peut être fait dans le contexte de l'utilisation de l'application
+- Vérifier certains aspects spécifiques avec quelques utilisateurs
+- Peut être appliquée à plusieurs étapes du développement
+
+### Inconvénients
+- Moins de contrôle de l'homogénéité des participants
+- Participants plus distraits
+- Tests moins rigoureux
+- Moins grandes généralisabilité des résultats
+
+## Les groupes de discussion (focus groups)
+- Recueillir des informations sur des thèmes pré-établis
+- On donne plus d'info dans une discussion car on réagit à l'opinion des autres
+>
+- Objectifs:
+    - Évaluer la perception que les utilisateurs ont du système
+    - Évaluer la satisfaction des utilisateurs
+    - Identifier/comprendre certains problèmes d'usabilité
+>
+- Contextes:
+    - Marketing
+    - Ingénierie
+
+>
+- Avantages
+    - Idée de la perception du produit
+    - Le cadre est proche des conversations de couloirs
+    - Résultats différents des entrevues individuelles
+    - Saute pas directement aux conclusions
+>
+- Limitations:
+    - Organisation difficile
+    - Risque de dérive consensuelle (groupe se plie à un leader)
+    - Le dit et le non-dit (disent pas leurs motivations profondes)
+    - Les résultats dépendent beaucoup du modérateur
+    - Analyse doit être rigoureuse
+
+## Les enquêtes
+
+- Collecter des informations en posant des questions aux users
+- Le volume compense l'imprécision et l'inexactitude des réponses
+>
+- Objectifs:
+    - Mieux connaître les **utilisateurs** et les **utilisations** du système
+    - Évaluer la **perception**
+    - Évaluer la **satisfaction**
+>
+- Contexte d'utilisation:
+    - Faire une nouvelle version du système
+    - Estimer le succès d'un produit
+>
+- Trois façons de faire l'enquête sur des utilisateurs:
+    - Questionnaire en ligne
+    - Questionnaire sur papier
+    - Entrevues individuelles
+>
+- Quand ?
+    - Mise à jour du système par l'utilisateur (update, product registration)
+    - Après un temps de fonctionnement (bêta-testeurs, utilisateurs pilotes)
+>
+- Recommendations:
+    - Bref
+    - Termes neutres
+    - Réponses exhaustives
+    - Libre de répondre
+    - Provoquer des commentaires non dirigés en entrevue (garder le silence)
+>
+- Avantages:
+    - Bonne idée de la perception
+    - Résultats utilisables pour le marketing
+    - Recevoir beaucoup d'information
+>
+- Limitations:
+    - Coût et temps
+    - Utilisateurs donnent une fausse image d'eux-mêmes
+    - Facteurs humains fausse les statistiques
+    - Facteurs techniques fausse les statistiques
+>
+- Remarques:
+    - Adapter son approche à la situation
+    - Tenir compte des individus
+    - Tenir compte de votre environnements
 
 # Cours 12 - Dispositifs d'interaction
 
