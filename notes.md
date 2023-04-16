@@ -655,6 +655,7 @@ Il faut décrire le profil de l'utilisateur (âge, sexe, études, etc.).
 4. Séance de débriefing
 
 **Expérimentateur**:
+
 - Préparer le local
 - Accueillir, faire remplir le formulaire
 - Expliquer les tâches
@@ -705,7 +706,6 @@ Il y a des phrases à ne pas dire à l'utilisateur (common sense)
 - Capture the feedback
 - Be a timecop
     - Don't waste too much of the subject's time
-
 - Pour tests sur ordi portable:
     - Enregistrer l'écran, caméra et micro
     - Logiciel qui permet de voir les cliques de souris
@@ -725,23 +725,18 @@ Il y a des phrases à ne pas dire à l'utilisateur (common sense)
 ## Les groupes de discussion (focus groups)
 - Recueillir des informations sur des thèmes pré-établis
 - On donne plus d'info dans une discussion car on réagit à l'opinion des autres
->
 - Objectifs:
     - Évaluer la perception que les utilisateurs ont du système
     - Évaluer la satisfaction des utilisateurs
     - Identifier/comprendre certains problèmes d'usabilité
->
 - Contextes:
     - Marketing
     - Ingénierie
-
->
 - Avantages
     - Idée de la perception du produit
     - Le cadre est proche des conversations de couloirs
     - Résultats différents des entrevues individuelles
     - Saute pas directement aux conclusions
->
 - Limitations:
     - Organisation difficile
     - Risque de dérive consensuelle (groupe se plie à un leader)
@@ -753,43 +748,35 @@ Il y a des phrases à ne pas dire à l'utilisateur (common sense)
 
 - Collecter des informations en posant des questions aux users
 - Le volume compense l'imprécision et l'inexactitude des réponses
->
 - Objectifs:
     - Mieux connaître les **utilisateurs** et les **utilisations** du système
     - Évaluer la **perception**
     - Évaluer la **satisfaction**
->
 - Contexte d'utilisation:
     - Faire une nouvelle version du système
     - Estimer le succès d'un produit
->
 - Trois façons de faire l'enquête sur des utilisateurs:
     - Questionnaire en ligne
     - Questionnaire sur papier
     - Entrevues individuelles
->
 - Quand ?
     - Mise à jour du système par l'utilisateur (update, product registration)
     - Après un temps de fonctionnement (bêta-testeurs, utilisateurs pilotes)
->
 - Recommendations:
     - Bref
     - Termes neutres
     - Réponses exhaustives
     - Libre de répondre
     - Provoquer des commentaires non dirigés en entrevue (garder le silence)
->
 - Avantages:
     - Bonne idée de la perception
     - Résultats utilisables pour le marketing
     - Recevoir beaucoup d'information
->
 - Limitations:
     - Coût et temps
     - Utilisateurs donnent une fausse image d'eux-mêmes
     - Facteurs humains fausse les statistiques
     - Facteurs techniques fausse les statistiques
->
 - Remarques:
     - Adapter son approche à la situation
     - Tenir compte des individus
