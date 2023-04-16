@@ -881,11 +881,25 @@ Première souris en 1968 par Douglas Engelbart (Standfort Research Institute).
 
 - 6 concepts clés de Norman (modèle conceptuel)
 	- Affordances
+		-Visible, fonctionnement intuitif (encourage une action)
 	- Contraintes
+		 - "Sens contraire" des affordances, limitent ou découragent certaines
+		 actions, empêchent les erreurs, peuvent aider à suggérer comment
+		 utiliser (ou pas) une interface (décourage une action)
 	- Visibilité
+		- Permet de voir comment utiliser l'objet ou l'interface -> on veut que
+		  les affordances et le retour soient visibles (les actions sont
+		  visibles)
 	- Mapping
+		- Correspondance entre les actions et leurs résultats, bon mapping ->
+		  naturel + évident + mémorable (les actions sont facile a se rappeler)
 	- Retour (feedback)
+		- Indication immédiate du résultats des actions de l'utilisateur, le
+		  retour peut être -> visuel, auditif ou tactile (l'action donne un
+		  feed back)
 	- Constance
+		- Types de constances: fonctionnelle, esthétique, interne, externe (les
+		  meme actions sont utilisé sur plusieurs système du même type)
 - Ces concepts s'appliquent autant aux objets physiques qu'aux interfaces virtuelles
 
 _Pouvoir donner des exemples des concepts_
