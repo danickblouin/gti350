@@ -270,7 +270,7 @@ Conjonction de deux variables => Pas d'effet "pop-out".
 	- Identifier les informations importantes
 	- Comprendre l'ordre logique de l'interface
 
-- Perception de gestalt: percoit les objects comme des ensembles cohérents plutôt que des éléments individuels. Quelques principes de Gestals:
+- Perception de Gestalt: percoit les objects comme des ensembles cohérents plutôt que des éléments individuels. Quelques principes de Gestalt:
 	- Proximité
 	- Similitude (continuité)
 	- Sort commun (symétrie)

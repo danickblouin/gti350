@@ -16,14 +16,14 @@ geometry: margin=0.75in
       visibles)
 - Mapping
     - Correspondance entre les actions et leurs résultats, bon mapping ->
-      naturel + évident + mémorable (les actions sont facile a se rappeler)
+      naturel + évident + mémorable (les actions sont faciles à se rappeler)
 - Retour (feedback)
     - Indication immédiate du résultats des actions de l'utilisateur, le
       retour peut être -> visuel, auditif ou tactile (l'action donne un
       feed back)
 - Constance
     - Types de constances: fonctionnelle, esthétique, interne, externe (les
-      meme actions sont utilisé sur plusieurs système du même type)
+      mêmes actions sont utilisées sur plusieurs systèmes du même type)
 
 # Analyse de tâches
 
@@ -48,7 +48,7 @@ geometry: margin=0.75in
     - Décrire la relation des intervenants avec les tâches
         - Fréquence, temps requis, taux d'erreurs, degré de difficulté
 
-![Matrice](https://media.discordapp.net/attachments/973974928380547092/1097197717375164466/image.png?width=1845&height=1201)
+![Matrice](https://media.discordapp.net/attachments/973974928380547092/1097197717375164466/image.png?width=1845&height=1201){width=400px}
 
 # Les principes et directives de conception
 
@@ -72,9 +72,9 @@ geometry: margin=0.75in
 
 ## Les directives de conception
 
-> Plus précises, plus détaillées, s’appliquent dans moins de cas mais disent plus précisément quoi faire
+Plus précises, plus détaillées, s’appliquent dans moins de cas mais disent plus précisément quoi faire.
 
-Peux s'adapter selon le OS/environnement
+Peuvent s'adapter selon le OS/environnement.
 
 - Permettre une navigation simple
 - Rendre les cibles suffisamment grandes
@@ -98,8 +98,7 @@ Peux s'adapter selon le OS/environnement
 
 ## Patron de conception
 
-En GUI, un patron de conception est une solution récurrente à un problème
-commun de conception d’interface
+En GUI, un patron de conception est une solution récurrente à un problème commun de conception d’interface.
 
 ### Exemples
 
@@ -116,7 +115,7 @@ commun de conception d’interface
 
 # Esquissage et prototypage
 
-![Processus de conception d'interface](https://cdn.discordapp.com/attachments/973974928380547092/1097203192636375070/image.png)
+![Processus de conception d'interface](https://cdn.discordapp.com/attachments/973974928380547092/1097203192636375070/image.png){width=400px}
 
 - Avantages d'esquisser ou prototyper en parallèle:
     - Explorer plus de possibilités et en combiner
@@ -126,18 +125,18 @@ commun de conception d’interface
 
 # KLM
 
-> se limite aux utilisateurs (experts) et aux taches familières
+Se limite aux utilisateurs (experts) et aux tâches familières.
 
 - Déterminer les tâches élémentaires de l'interface.
 	- e.g. ajouter un client, acheter un produit, etc.
 - Établir les modèles KLM de chacune de ces tâches.
 	- Modèle = séquence d'actions élémentaires
-- Estimer les temps d'exécution Ti de ces tâches.
-- Estimer les fréquences Fi des tâches pour un usager-type.
+- Estimer les temps d'exécution $t_{i}$ de ces tâches.
+- Estimer les fréquences $f_{i}$ des tâches pour un usager-type.
 - Quantifier l'efficience globale
 	- cummation ($f_{i} \cdot t_{i}$).
 
-## Rules
+## Règles
 - Homing (H) - 400ms
 - Pointage (P) - 1100ms
 - Keystroke (K) - 200ms
@@ -148,12 +147,13 @@ commun de conception d’interface
 
 - Placer les M
 	- Écrire séquence sans les M
-	- Placer un M devant chaaque P, B, k
+	- Placer un M devant chaque P, B, K
 	- Remplacer M consécutif par un M (MM->M)
 
 # Loi de Fitts
 
 $$\boxed{T=a+b \cdot \log_2{(D/W + 1)}}$$
+
 - T ou MT = temps moyen de mouvement
 - $D$ = distance
 - $W$ = largeur cible (si 2D prend Min(x,y))
@@ -165,6 +165,7 @@ La loi de Fitts modélise les mouvements réciproques ("aller retour") et discre
 # Loi de Hick-Hyman
 
 $$\boxed{\text{Temps de réaction} = a + b \cdot \log_{2}(N+1)}$$
+
 - N = nb de choix
 - a, b des constantes mesurées de facons expérimental
 
@@ -172,7 +173,7 @@ Quand l'utilisateur sait ce qu'il cherche, ordre logique.
 
 # Vision et perception
 
-![Questions](https://cdn.discordapp.com/attachments/973974928380547092/1097207665903550474/image.png)
+![Questions](https://cdn.discordapp.com/attachments/973974928380547092/1097207665903550474/image.png){width=450px}
 
 a) est vrai et f) et faux
 
@@ -189,7 +190,7 @@ Variables: couleur, forme, taille, orientation, mouvement, espacement, lissage o
 
 ## Subitiser
 - Limité jusqu'à 4 à 5 objets.
-- Coûte 40 à 100ms par objet alors que compter coût 250 à 300ms par objet.
+- Coûte 40 à 100ms par objet alors que compter coûte 250 à 300ms par objet.
 
 ## Reconnaissance vs rappel
 
@@ -203,7 +204,7 @@ Variables: couleur, forme, taille, orientation, mouvement, espacement, lissage o
 
 ## Distinction des couleurs
 
-- Tris facteurs impactent grandement notre capacité à distinguer deux couleurs:
+- Trois facteurs impactent grandement notre capacité à distinguer deux couleurs:
 	- Pâleur (luminance élevée, saturation basse)
 	- Taille de l'échantillon
 	- Espacement
@@ -228,7 +229,7 @@ Variables: couleur, forme, taille, orientation, mouvement, espacement, lissage o
 	- Identifier les informations importantes
 	- Comprendre l'ordre logique de l'interface
 
-- Perception de gestalt: percoit les objects comme des ensembles cohérents plutôt que des éléments individuels. Quelques principes de Gestals:
+- Perception de Gestalt: percoit les objects comme des ensembles cohérents plutôt que des éléments individuels. Quelques principes de Gestalt:
 	- Proximité
 	- Similitude (continuité)
 	- Sort commun (symétrie)
@@ -254,7 +255,7 @@ Technique de conception d'interface utilisateur pour encourager l'utilisation co
 
 Incite l'utilisateur à intéragir avec le produit.
 
-- **Externe**: vient de l'environnement de l'utilisateur. (ex: courriel, message texte, notification)
+- **Externe**: vient de l'environnement de l'utilisateur. (ex: courriel, message texte, notifications)
 - **Interne**: vient de l'utilisateur lui-même, souvent une émotion ou un besoin. (ex: ennui, solitude, recherche de valorisation)
 
 Exemple : Un réseau social qui envoie des notifications pour signaler de nouvelles activités ou messages sur la plateforme pour inciter les utilisateurs à revenir régulièrement. 
@@ -283,6 +284,7 @@ Encourage l'utilisateur à répéter l'action dans le futur. Cela peut inclure l
 Peut mener indirectement au prochain *trigger* externe (ou même interne).
 
 Exemple :
+
 - L'effet IKEA, le fait que le client ai construit lui-même le meuble le rend plus précieux à ses yeux.
 - L'utilisateur répond au message et investit du temps et de l'énergie dans la conversation pour renforcer ses liens sociaux sur la plateforme.
 
