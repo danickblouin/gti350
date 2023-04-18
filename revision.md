@@ -11,15 +11,15 @@ geometry: margin=0.75in
     actions, empêchent les erreurs, peuvent aider à suggérer comment
     utiliser (ou pas) une interface (décourage une action)
 - Visibilité
-    - Permet de voir comment utiliser l'objet ou l'interface -> on veut que
+    - Permet de voir comment utiliser l'objet ou l'interface &rarr; on veut que
       les affordances et le retour soient visibles (les actions sont
       visibles)
 - Mapping
-    - Correspondance entre les actions et leurs résultats, bon mapping ->
+    - Correspondance entre les actions et leurs résultats, bon mapping &rarr;
       naturel + évident + mémorable (les actions sont faciles à se rappeler)
 - Retour (feedback)
     - Indication immédiate du résultats des actions de l'utilisateur, le
-      retour peut être -> visuel, auditif ou tactile (l'action donne un
+      retour peut être &rarr; visuel, auditif ou tactile (l'action donne un
       feed back)
 - Constance
     - Types de constances: fonctionnelle, esthétique, interne, externe (les
@@ -48,7 +48,7 @@ geometry: margin=0.75in
     - Décrire la relation des intervenants avec les tâches
         - Fréquence, temps requis, taux d'erreurs, degré de difficulté
 
-![Matrice](https://media.discordapp.net/attachments/973974928380547092/1097197717375164466/image.png?width=1845&height=1201){width=400px}
+![Matrice](images/matrice.png){width=400px}
 
 # Les principes et directives de conception
 
@@ -115,7 +115,7 @@ En GUI, un patron de conception est une solution récurrente à un problème com
 
 # Esquissage et prototypage
 
-![Processus de conception d'interface](https://cdn.discordapp.com/attachments/973974928380547092/1097203192636375070/image.png){width=400px}
+![Processus de conception d'interface](images/processus_conception_interfaces.png){width=400px}
 
 - Avantages d'esquisser ou prototyper en parallèle:
     - Explorer plus de possibilités et en combiner
@@ -148,7 +148,7 @@ Se limite aux utilisateurs (experts) et aux tâches familières.
 - Placer les M
 	- Écrire séquence sans les M
 	- Placer un M devant chaque P, B, K
-	- Remplacer M consécutif par un M (MM->M)
+	- Remplacer M consécutif par un M (MM&rarr;M)
 
 # Loi de Fitts
 
@@ -158,7 +158,7 @@ $$\boxed{T=a+b \cdot \log_2{(D/W + 1)}}$$
 - $D$ = distance
 - $W$ = largeur cible (si 2D prend Min(x,y))
 - $a$, $b$ constantes mesurées
-- $IP = 1/b$ -> indice de performance
+- $IP = 1/b$ &rarr; indice de performance
 
 La loi de Fitts modélise les mouvements réciproques ("aller retour") et discrets ("un coup") en 1D ou en 2D
 
@@ -173,7 +173,7 @@ Quand l'utilisateur sait ce qu'il cherche, ordre logique.
 
 # Vision et perception
 
-![Questions](https://cdn.discordapp.com/attachments/973974928380547092/1097207665903550474/image.png){width=450px}
+![Questions quiz](images/questions_quiz.png){width=450px}
 
 a) est vrai et f) et faux
 

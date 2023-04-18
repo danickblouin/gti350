@@ -112,7 +112,7 @@ Un prototype qui offre un minimum de fonctionnalité à l’utilisateur
 
 ### plusieurs moyen de prototyper statique
 
-> statique -> inverse de dynamique
+> statique &rarr; inverse de dynamique
 
 - papier
 - wireframe
@@ -132,8 +132,8 @@ Un prototype qui offre un minimum de fonctionnalité à l’utilisateur
 	- e.g. ajouter un client, acheter un produit, etc.
 - Établir les modèles KLM de chacune de ces tâches.
 	- Modèle = séquence d'actions élémentaires
-- Estimer les temps d'exécution Ti de ces tâches.
-- Estimer les fréquences Fi des tâches pour un usager-type.
+- Estimer les temps d'exécution $t_{i}$ de ces tâches.
+- Estimer les fréquences $f_{i}$ des tâches pour un usager-type.
 - Quantifier l'efficience globale
 	- cummation ($f_{i} \cdot t_{i}$).
 
@@ -149,18 +149,18 @@ Un prototype qui offre un minimum de fonctionnalité à l’utilisateur
 - Placer les M
 	- Écrire séquence sans les M
 	- Placer un M devant chaaque P, B, k
-	- Remplacer M consécutif par un M (MM->M)
+	- Remplacer M consécutif par un M (MM &rarr; M)
 
 
 ### EG
 
 - Écrire dlabbe au clavier
--> M K M K M K M K M K M K M K = $MK^5MK$
--> M au debut et fin
+&rarr; M K M K M K M K M K M K M K = $MK^5MK$
+&rarr; M au debut et fin
 
 - {Click Delete} {Click Yes} {Click OK}
--> MHPBB          MPBB       MPBB
--> MHPK           PBB        PBB
+&rarr; MHPBB          MPBB       MPBB
+&rarr; MHPK           PBB        PBB
 
 Détruire un fichier depuis une liste
 
@@ -181,11 +181,12 @@ On utilise FLM pour ecran tactile
 ## Loi de Fitts
 
 $$\boxed{T = a+b \cdot \log_{2}(D/W + 1)}$$
+
 - T ou MT = temps moyen de mouvement
 - $D$ = distance
 - $W$ = largeur cible (si 2D prend Min(x,y))
 - $a$, $b$ constantes mesurées
-- $IP = 1/b$ -> indice de performance
+- $IP = 1/b$ &rarr; indice de performance
 
 La loi de Fitts modélise les mouvements réciproques ("aller retour") et discrets
 ("un coup") en 1D ou en 2D
@@ -227,7 +228,7 @@ Lorsque notre attention est attiré automatiquement par quelque chose dans notre
 
 Plusieurs variables: couleur, forme, taille, orientation, mouvement, espacement, lissage ou ombrage.
 
-Conjonction de deux variables => Pas d'effet "pop-out".
+Conjonction de deux variables &rarr; Pas d'effet "pop-out".
 
 ### Subitiser
 - Limité jusqu'à 4 à 5 objets.
@@ -336,7 +337,8 @@ Exemple : Les numéros de téléphone sont généralement composés de 7 chiffre
 
 Stipule qu'un programme informatique doit être tolérant aux erreurs ou aux variations dans les entrées. Les utilisateurs ne sont pas des machines, ils peuvent faire des erreurs. Peuvent devenir irrités quand on leur demande trop d'informations.
 
-Exemple : 
+Exemples : 
+
 - Un programme qui peut décoder des fichiers multimédias même si les fichiers sont légèrement corrompus ou si certaines données sont manquantes.
 - Apple ID nous permet de se faire plusieurs choses (déverouiller le téléphone, faire des achats, etc.)
 
@@ -348,7 +350,8 @@ Diminuer l'intenstion des désagréments, les utilisateurs retiennent les mauvai
 
 Mettre un emphase pour rendre la fin de tâche la plus satisfaisante possible.
 
-Exemple :
+Exemples :
+
 - Un parcours client en ligne bien conçu qui crée une expérience utilisateur positive dès le début et qui se termine par une confirmation ou un résumé clair de l'interaction, améliorant ainsi la mémorisation de l'expérience. 
 - Mettre de l'humour sur les pages d'erreurs (404)
 
@@ -362,7 +365,8 @@ Exemple : Un site Web avec une mise en page esthétique et des couleurs harmonie
 
 Stipule que la complexité ne peut pas être éliminée, mais seulement déplacée ou cachée. Elle doit être assumée par le système ou son utilisateur. Essayer d'assumer le maximum pour réduire le fardeau sur l'utilisateur.
 
-Exemple :
+Exemples :
+
 - Un logiciel qui propose des options avancées cachées dans des menus déroulants pour simplifier l'interface de base, tout en offrant des options supplémentaires pour les utilisateurs avancés.
 - Les suggestions de messages prédéfinis sur Gmail.
 - Utiliser la même adresse de shipping que celle de facturation.
@@ -403,7 +407,8 @@ Encourage l'utilisateur à répéter l'action dans le futur. Cela peut inclure l
 
 Peut mener indirectement au prochain *trigger* externe (ou même interne).
 
-Exemple :
+Exemples :
+
 - L'effet IKEA, le fait que le client ai construit lui-même le meuble le rend plus précieux à ses yeux.
 - L'utilisateur répond au message et investit du temps et de l'énergie dans la conversation pour renforcer ses liens sociaux sur la plateforme.
 
